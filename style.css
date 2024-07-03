@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+    
+#gameContainer{
+    border: 3px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55vh;
+    height: 65vh;
+    height:fit-content;
+}
+
+#resetButtonSet{
+    margin-top: 2vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:2vh;
+}
+
+#changeWidthButton{
+    margin-right: 2vh;
+}
+
+#startAndClockBox{
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:2vh;
+}
+
+#startButton{
+    margin-right: 10vh;
+}
+
+#mainPlayBox{
+    margin: 5hv;
+    padding: 0;
+    border: 3px solid black;
+    width: 50vh;
+    min-height: 50vh;
+    height:fit-content;
+    margin-bottom: 2vh;
+}
+
+.buttons{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
